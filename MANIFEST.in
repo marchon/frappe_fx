@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fouraxis *.css
+recursive-include fouraxis *.csv
+recursive-include fouraxis *.html
+recursive-include fouraxis *.ico
+recursive-include fouraxis *.js
+recursive-include fouraxis *.json
+recursive-include fouraxis *.md
+recursive-include fouraxis *.png
+recursive-include fouraxis *.py
+recursive-include fouraxis *.svg
+recursive-include fouraxis *.txt
+recursive-exclude fouraxis *.pyc
